@@ -1,0 +1,17 @@
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+    justify-content: right;
+    
+    .box1{
+        color: white;
+        margin: 10px;
+        text-decoration: none;
+    }
+
+    .box1:hover{
+        color: black;
+    }
+}

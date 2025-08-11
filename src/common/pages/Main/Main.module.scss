@@ -1,0 +1,54 @@
+.Main{
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.box1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 16px;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.text{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+p{
+    background: linear-gradient(to left, #462c2b, #233942);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+}
+
+.foto img{
+    border-radius: 16px;
+    margin-top: 75px;
+    width: 60%;
+    height: 70%;
+    object-fit: cover;   
+    display: block;
+    align-items: center;
+    box-shadow: 0 4px 12px rgb(224, 220, 220);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover{
+    transform: scale(1.05); /* Un ligero zoom */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
